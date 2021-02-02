@@ -8,7 +8,7 @@ export default class LandingButton extends Component{
                 
                 <h4><strong><p>Search information about your favourite movies &amp; tv shows ,</p>know about their IMDB ratings ,cast and much more<p></p></strong></h4>
                 <Link to="/movies">
-                    <button class="cstm-btn" type="submit">Start Exploring</button>
+                    <button class="cstm-btn">Start Exploring</button>
                </Link>
             </div>
         )
