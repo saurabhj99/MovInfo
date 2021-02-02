@@ -3,7 +3,7 @@ import SearchResult from "./search-result-component";
 import ErrorNotification from "./error-notification-component";
 
 
-const API_KEY="thewdb";
+const API_KEY="YOUR API KEY";
 
 
 export default class Search extends Component{

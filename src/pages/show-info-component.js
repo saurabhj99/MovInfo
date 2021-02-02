@@ -1,7 +1,7 @@
 import {Component} from "react";
 import Navbar from "../components/navbar-component";
 import ErrorNotification from "../components/error-notification-component";
-const API_KEY="thewdb";
+const API_KEY="YOUR API KEY";
 const fields=["Released","Actors","Director","Writer","Runtime","Genre","Language","Country","Plot","Awards","BoxOffice"]
 
 export default class ShowInfo extends Component{
