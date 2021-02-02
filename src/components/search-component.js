@@ -24,7 +24,7 @@ export default class Search extends Component{
     }
 
     getResults=async()=>{
-     const url=`http://www.omdbapi.com/?&s=${this.state.query}&type=${this.props.type}&apikey=${API_KEY}`;
+     const url=`https://www.omdbapi.com/?&s=${this.state.query}&type=${this.props.type}&apikey=${API_KEY}`;
      try{
         const response= await fetch(url);
         const data=await response.json();
