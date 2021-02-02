@@ -23,7 +23,7 @@ export default class ShowInfo extends Component{
         )}
 
     fetchInfo=async()=>{
-        const url=`http://www.omdbapi.com/?&i=${this.props.match.params.id}&plot=full&apikey=${API_KEY}`;
+        const url=`https://www.omdbapi.com/?&i=${this.props.match.params.id}&plot=full&apikey=${API_KEY}`;
         const response=await fetch(url);
         const data=await response.json();
         return data;
